@@ -23,7 +23,7 @@ features = st.container()
 model_training = st.container()
 
 
-@st.cache_data
+@st.cache
 def get_data():
     # Path to your Parquet file
     file_path = 'green_tripdata_2023-01.parquet'
